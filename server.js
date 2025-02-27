@@ -8,11 +8,11 @@ const User = require("./models/User"); // Import User Model
 const connectDB = require("./config/database");
 
 //helmet cors
-const helmet = require("helmet");
-const cors = require("cors");
+// const helmet = require("helmet");
+// const cors = require("cors");
 
-app.use(helmet());
-app.use(cors());
+// app.use(helmet());
+// app.use(cors());
 
 // Initialize Express App
 const app = express();
